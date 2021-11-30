@@ -1,3 +1,8 @@
+@keyframes fadeIn {
+    from {color: #0D0A0B;}
+    to {color: #F3EFF5;}
+}
+
 body {
     background-color: #0D0A0B;
     font-family: 'Abel';
@@ -25,6 +30,9 @@ a {
     text-decoration: none;
     display: block;
     margin: 35px 0px 0px;
+    animation-name: fadeIn;
+    animation-duration: 2s;
+    animation-fill-mode: backwards;
 }
 
 p {
@@ -32,6 +40,8 @@ p {
     font-size: 17px;
     text-decoration: none;
     display: block;
+    animation-name: fadeIn;
+    animation-duration: 2s;
     margin: 0px 0px;
 }
 
